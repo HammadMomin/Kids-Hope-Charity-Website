@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Crimson Text', serif;
+
+}
+#logo{
+    font-family: 'Merienda One', cursive;
+    font-size: 40px;
+}
+li{
+    margin-right: 50px;
+    color: white;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)) ,url("bgpoorkids.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+color: white;
+}
+.h-100{
+    height: 100%;
+    width: 100%;
+}
+.learn{
+    background: linear-gradient( to right, rgb(231, 224, 224),rgb(0,0,0,.7));
+}
+.learn2{
+    background: linear-gradient( to left, rgb(231, 224, 224),rgb(0,0,0,.7));
+}
+
+.Target{
+    height: 500px;
+    background-image: url("nice2.png");
+   background-size: cover;
+}
+.signup{
+    background-color: rgb(189, 192, 184) ;
+}
+p{
+    font-size: 22px;
+}
+h2{
+    font-family: 'Merienda One', cursive;
+}
+.navbar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #FFCC00;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+@media    (max-width: 568px) {
+    h1{
+        font-size: 22px;
+    }
+    #logo{
+        font-size: 20px;
+    }
+    .size{
+        font-size: 18px;
+    }
+   
+    
+      p{
+          font-size: 15px;
+      }
+    .header{
+        height: 100vh;
+        width: 100%;       
+    }
+    .card{
+        margin-bottom: 5px;
+    }
+    .learn{
+        padding: 10px;
+        background:rgb(238, 235, 235);
+
+    }
+    .learn img{
+       padding: 5px;
+    }
+  .Target{
+      height: 350px;
+  }
+  .side{
+      width: 33%;
+      padding:0;
+      padding-right:0 ;
+  }
+  
+  .learn2{
+      background: rgb(238, 235, 235);
+      padding: 5px;
+  }
+  .message{
+      padding: 0;
+      margin: 0;
+  }
+ 
+ }
+
+   
+
+ 
+ 
+ 
+ 
+
+
+
